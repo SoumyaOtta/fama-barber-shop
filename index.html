@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PMC Barbershop | Premium Barber Services</title>
+    <meta name="description" content="PMC Barbershop offers premium men's grooming services. Specializing in classic cuts, beard trims, and hot towel shaves with over 5 years of experience.">
+    <meta name="keywords" content="barber shop, haircut, beard trim, hot towel shave, men's grooming">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="antialiased bg-background text-foreground">
+    <header class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">Experience Premium Grooming</h1>
+                <p class="hero-subtitle">Where tradition meets modern style - Your journey to looking exceptional starts here</p>
+                <div class="hero-info">
+                    <div class="info-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Expert Master Barbers</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-clock"></i>
+                        <span>Flexible Appointments</span>
+                    </div>
+                    <div class="info-item">
+                        <i class="fas fa-award"></i>
+                        <span>Premium Products Used</span>
+                        <span>Prime Location</span>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll Down</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Premium Barber & Beauty Services in Denton</h1>
+                <p class="hero-subtitle">Experience exceptional grooming services at Fama Barber Shop</p>
+                <div class="hero-info">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder=" " required>
+                        <label for="name">Full Name</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder=" " required>
+                        <label for="email">Email Address</label>
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" placeholder=" " required>
+                        <label for="phone">Phone Number</label>
+                    </div>
+                </div>
+                <div class="hero-buttons">
+                    <a href="tel:+19406129127" class="cta-button primary">
+                        <i class="fas fa-phone"></i>
+                        <span>Schedule Now</span>
+                    </a>
+                    <a href="https://maps.google.com" target="_blank" rel="noopener noreferrer" class="cta-button secondary">
+                        <i class="fas fa-location-arrow"></i>
+                        <span>Get Directions</span>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://images.unsplash.com/photo-1622292776909-75c4ec7f3bfa?ixlib=rb-4.0.3" alt="Barber Shop Interior">
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Welcome to Fama Barber Shop and Beauty Salon, your premier destination for professional grooming services in Denton, TX. Our skilled barbers and stylists are dedicated to helping you look and feel your best.</p>
+    </section>
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-title-tag">Quality Barbering at Fair Prices</span>
+                <h2>Our Service Prices</h2>
+                <p class="section-subtitle">Choose from our range of professional barbering services.</p>
+            </div>
+            <div class="pricing-grid">
+                <!-- Classic Services Card -->
+                <div class="pricing-card">
+                    <div class="card-badge">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Classic Services</h3>
+                        <div class="form-group">
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Choose a service...</option>
+                                <option value="Men's Haircut">Men's Haircut</option>
+                                <option value="Kids Haircut (12 & under)">Kids Haircut (12 & under)</option>
+                                <option value="Senior Haircut (65+)">Senior Haircut (65+)</option>
+                                <option value="Military/First Responder Cut">Military/First Responder Cut</option>
+                                <option value="Basic Beard Trim">Basic Beard Trim</option>
+                            </select>
+                            <label for="service">Select Service</label>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="service-list">
+                            <li><i class="fas fa-check"></i> Men's Haircut</li>
+                            <li><i class="fas fa-check"></i> Kids Haircut (12 & under)</li>
+                            <li><i class="fas fa-check"></i> Senior Haircut (65+)</li>
+                            <li><i class="fas fa-check"></i> Military/First Responder Cut</li>
+                            <li><i class="fas fa-check"></i> Basic Beard Trim</li>
+                        </ul>
+                        <a href="#contact" class="card-btn">Book Now</a>
+                    </div>
+                </div>
+                <!-- Premium Services Card -->
+                <div class="service-card" data-category="premium">
+                    <div class="service-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>Premium Services</h3>
+                    <p>Enhance your look with our premium barbering services including expert hair coloring, revitalizing scalp treatments, and styling for special occasions. Experience luxury grooming at its finest.</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Hair Coloring</h4>
+                                <p>Professional color & highlights</p>
+                                <span class="price">From $65</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-spa"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Scalp Treatment</h4>
+                                <p>Rejuvenating therapy</p>
+                                <span class="price">From $35</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Special Occasion</h4>
+                                <p>Wedding & event styling</p>
+                                <span class="price">From $75</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-gem"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>VIP Package</h4>
+                                <p>Complete luxury experience</p>
+                                <span class="price">From $120</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="service-btn">Book Premium Service</a>
+                </div>
+                <ul class="service-list premium-list">
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div class="service-detail">
+                            <span>Haircut & Beard Combo</span>
+                            <small>Precision cut & beard styling</small>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div class="service-detail">
+                            <span>Hot Towel Shave</span>
+                            <small>Traditional straight razor shave</small>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div class="service-detail">
+                            <span>Color Camo</span>
+                            <small>Natural gray blending technique</small>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="fas fa-check-circle"></i>
+                        <div class="service-detail">
+                            <span>Scalp Treatment</span>
+                            <small>Deep conditioning & massage</small>
+                                <h4>Beard Design</h4>
+                                <p>Custom styling</p>
+                                <span class="price">From $40</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-spa"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Treatment</h4>
+                                <p>Deep conditioning</p>
+                                <span class="price">From $25</span>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contact" class="service-btn">Book Beard Service</a>
+                </div>
+
+                <!-- Package Services Card -->
+                <div class="service-card" data-category="packages">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Premium Packages</h3>
+                    <p>Exclusive grooming packages combining our best services at great value. Perfect for special occasions.</p>
+                    <div class="service-features">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-crown"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>The Works</h4>
+                                <p>Complete service</p>
+                                <span class="price">From $75</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Father & Son</h4>
+                                <p>Family package</p>
+                                <span class="price">From $70</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-glass-cheers"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Groom Special</h4>
+                                <p>Wedding package</p>
+                                <span class="price">From $120</span>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-calendar-check"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Monthly VIP</h4>
+                                <p>Regular service</p>
+                                <span class="price">From $80</span>
+                            </div>
+                    </div>
+                    <a href="#contact" class="service-btn">Book Package</a>
+                </div>
+            </div>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="card-badge">Most Popular</div>
+                    <div class="card-header">
+                        <h3>Classic Services</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">50</span>
+                            <span class="period">/package</span>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <ul class="features-list">
+                            <li><i class="fas fa-check"></i> The Works (Cut, Shave, Treatment)</li>
+                            <li><i class="fas fa-check"></i> Father & Son Combo</li>
+                            <li><i class="fas fa-check"></i> Groom's Package</li>
+                            <li><i class="fas fa-check"></i> Monthly Membership (2 cuts/mo)</li>
+                            <li><i class="fas fa-check"></i> First-Time Client Special</li>
+                        </ul>
+                        <a href="#contact" class="btn-book">Book Now</a>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ul class="features-list">
+                        <li><i class="fas fa-check"></i> The Works (Cut, Shave, Treatment)</li>
+                        <li><i class="fas fa-check"></i> Father & Son Combo</li>
+                        <li><i class="fas fa-check"></i> Groom's Package</li>
+                        <li><i class="fas fa-check"></i> Monthly Membership (2 cuts/mo)</li>
+                        <li><i class="fas fa-check"></i> First-Time Client Special</li>
+                    </ul>
+                    <a href="#contact" class="btn-book">Book Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="section-header">
+            <span class="section-title-tag">Expert Services</span>
+            <h2>Premium Services</h2>
+            <p class="section-subtitle">Professional barbering services to keep you looking sharp for everyday confidence or special occasions.</p>
+        </div>
+        <div class="service-grid">
+            <div class="service-card">
+                <div class="card-badge">Popular</div>
+                <div class="service-icon">
+                    <i class="fas fa-cut"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Classic Haircut</h3>
+                    <div class="service-price">
+                        <span class="currency">$</span>
+                        <span class="amount">25</span>
+                    </div>
+                    <p>Expert precision cut tailored to your style and face shape</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-clock"></i> 30-45 minutes</li>
+                        <li><i class="fas fa-spray-can"></i> Premium products</li>
+                        <li><i class="fas fa-check-circle"></i> Consultation included</li>
+                        <li><i class="fas fa-sync"></i> Free touch-ups</li>
+                    </ul>
+                    <a href="#contact" class="service-cta">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="service-card featured">
+                <div class="card-badge">Best Value</div>
+                <div class="service-icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Premium Package</h3>
+                    <div class="service-price">
+                        <span class="currency">$</span>
+                        <span class="amount">45</span>
+                    </div>
+                    <p>Complete grooming experience with premium services</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-cut"></i> Signature haircut</li>
+                        <li><i class="fas fa-hot-tub"></i> Hot towel treatment</li>
+                        <li><i class="fas fa-hands"></i> Head massage</li>
+                        <li><i class="fas fa-star"></i> VIP experience</li>
+                    </ul>
+                    <a href="#contact" class="service-cta">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <div class="service-content">
+                    <h3>Beard Grooming</h3>
+                    <div class="service-price">
+                        <span class="currency">$</span>
+                        <span class="amount">35</span>
+                    </div>
+                    <p>Professional beard shaping and maintenance</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-ruler"></i> Precision trimming</li>
+                        <li><i class="fas fa-fire"></i> Hot towel service</li>
+                        <li><i class="fas fa-pump-soap"></i> Beard products</li>
+                        <li><i class="fas fa-compass"></i> Style consultation</li>
+                    </ul>
+                    <a href="#contact" class="service-cta">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+                <p>Our skilled barbers deliver precision haircuts tailored to your style and face shape. From classic cuts to modern styles, we provide the look that's right for you.</p>
+                <div class="service-features">
+                    <div class="feature"><i class="fas fa-check"></i> Modern & Classic Styles</div>
+                    <div class="feature"><i class="fas fa-check"></i> Precision Cutting</div>
+                    <div class="feature"><i class="fas fa-check"></i> Style Consultation</div>
+                </div>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-razor"></i>
+                </div>
+                <h3>Beard Services</h3>
+                <p>Maintain your facial hair with our premium beard services. Our barbers specialize in perfect beard shaping, precise trims, and luxurious hot towel shaves.</p>
+                <div class="service-features">
+                    <div class="feature"><i class="fas fa-check"></i> Beard Trimming</div>
+                    <div class="feature"><i class="fas fa-check"></i> Hot Towel Shaves</div>
+                    <div class="feature"><i class="fas fa-check"></i> Beard Grooming</div>
+                </div>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card">
+                <div class="service-icon">
+                    <i class="fas fa-crown"></i>
+                </div>
+                <h3>Premium Services</h3>
+                <p>Enhance your look with our premium barbering services including expert hair coloring, revitalizing scalp treatments, and styling for special occasions.</p>
+                <div class="service-features">
+                    <div class="feature"><i class="fas fa-check"></i> Hair Coloring</div>
+                    <div class="feature"><i class="fas fa-check"></i> Scalp Treatments</div>
+                    <div class="feature"><i class="fas fa-check"></i> Special Occasion Styling</div>
+                </div>
+                <a href="#contact" class="service-link">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-grid">
+            <!-- Gallery images will be added here -->
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="section-header">
+            <span class="section-title-tag">BOOK YOUR APPOINTMENT</span>
+            <h2>Contact Us</h2>
+            <p class="section-subtitle">Ready for a fresh look? Book your appointment today or contact us for any questions.</p>
+        </div>
+
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div class="info-content">
+                        <h3>Location</h3>
+                        <p>500 N Bell Ave #109, Denton, TX 76209, United States</p>
+                        <a href="https://maps.google.com" target="_blank" class="directions-btn">
+                            <i class="fas fa-directions"></i> Get Directions
+                        </a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <div class="info-content">
+                        <h3>Phone</h3>
+                        <a href="tel:+19406129127" class="contact-link">+1 940-612-9127</a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <div class="info-content">
+                        <h3>Email</h3>
+                        <a href="mailto:info@famabarber.com" class="contact-link">info@famabarber.com</a>
+                    </div>
+                </div>
+
+                <div class="info-item">
+                    <i class="fas fa-clock"></i>
+                    <div class="info-content">
+                        <h3>Working Hours</h3>
+                        <ul class="hours-list">
+                            <li>Monday - Friday: 9:00 AM - 8:00 PM</li>
+                            <li>Saturday: 9:00 AM - 6:00 PM</li>
+                            <li>Sunday: Closed</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <h3>Book an Appointment</h3>
+                <form id="appointment-form">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" required>
+                        <label for="name">Full Name</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" required>
+                        <label for="email">Email Address</label>
+                    </div>
+
+                    <div class="form-group">
+                        <input type="tel" id="phone" name="phone" required>
+                        <label for="phone">Phone Number</label>
+                    </div>
+
+                    <div class="form-group">
+                        <select id="service" name="service" required>
+                            <option value="" disabled selected>Select Service</option>
+                            <option value="haircut">Haircut</option>
+                            <option value="beard-trim">Beard Trim</option>
+                            <option value="hot-towel-shave">Hot Towel Shave</option>
+                            <option value="hair-color">Hair Color</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <textarea id="message" name="message" rows="4" placeholder="Additional Notes (Optional)"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book Appointment
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Fama Barber Shop and Beauty Salon. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+{
+  "name": "fama-barber",
+  "version": "1.0.0",
+  "description": "Landing page for Fama Barber Shop",
+  "scripts": {
+    "start": "npx http-server -p 8080"
+  }
+}
