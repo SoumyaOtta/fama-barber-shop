@@ -416,6 +416,71 @@ body.menu-open {
     margin-bottom: 2rem;
 }
 
+.business-status {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background: rgba(0, 0, 0, 0.7);
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+}
+
+.status-badge {
+    font-size: 0.9rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+}
+
+.status-badge.open {
+    color: #4CAF50;
+}
+
+.status-badge.open::before {
+    content: '';
+    width: 8px;
+    height: 8px;
+    background: #4CAF50;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.status-text {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+}
+
+.business-rating {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.stars {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    color: #FFD700;
+}
+
+.rating-number {
+    color: var(--light);
+    margin-left: 0.5rem;
+    font-weight: 600;
+}
+
+.review-count {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+}
+
 .hero-content {
     max-width: 1400px;
     width: 100%;
